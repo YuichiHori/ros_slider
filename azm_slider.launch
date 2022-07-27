@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="" name="slider" type="azm_slider.py" required="true" output="screen">
+    <param name="~ip" value="192.168.101.70" />
+    <param name="~port" value="13" />
+  </node>
+</launch>
